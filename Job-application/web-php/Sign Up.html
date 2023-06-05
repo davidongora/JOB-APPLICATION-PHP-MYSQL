@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Sign In / Sign Up</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,700'><link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- partial:index.partial.html -->
+<section id="Sign Up"></section>
+<div class="login-container">
+	<form action="sign Up.php" class="form-login" method="POST">
+		<ul class="login-nav">
+			<li class="login-nav__item">
+				<a href="Login.html">LogIn</a>
+			</li>
+			<li class="login-nav__item active">
+				<a href="Sign Up.html">Sign Up</a>
+			</li>
+		</ul>
+		<label for="login-input-user" class="login__label">
+			Username
+		</label>
+		<input id="login-input-user" class="login__input" type="text" name="name" required>
+		<label for="login-input-user" class="login__label">
+			Gender
+		</label>
+		<input id="login-input-user" class="login__input" type="text" name="gender" required>
+
+		<label for="login-input-user" class="login__label">
+			AdmNo
+		</label>
+		<input id="login-input-user" class="login__input" type="text" name="AdmNo" required>
+
+		<label for="login-input-user" class="login__label">
+			Location
+		</label>
+		<input id="login-input-user" class="login__input" type="text" name="Location" required>
+
+		<label for="login-input-password" class="login__label">
+			Password
+		</label>
+		<input id="login-input-password" class="login__input" type="password" name="Password" required>
+		<label for="login-sign-up" class="login__label--checkbox">
+			<input id="login-sign-up" type="checkbox" class="login__input--checkbox" />
+			Keep me Signed in
+		</label>
+		<button class="login__submit" value="submit">Sign in</button>
+	</form>
+	<a href="#" class="login__forgot">Forgot Password?</a>
+</div>
+  
+</body>
+</html>
